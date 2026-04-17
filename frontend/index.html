@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusBlood | Privacy-First Blood Donation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <nav class="glass-nav">
+        <div class="logo">
+            <span class="pulse-icon"></span>
+            NexusBlood
+        </div>
+        <div class="nav-links">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#request">Request</a>
+            <a href="#trace">Trace</a>
+            <button id="login-btn" class="btn-primary">Connect ID</button>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1 class="gradient-text">Save Lives, <br>Protect Privacy.</h1>
+            <p>Decentralized blood donation and emergency response with end-to-end traceability.</p>
+            <div class="hero-actions">
+                <button class="btn-primary large">Become a Donor</button>
+                <button class="btn-secondary large">Request Blood</button>
+            </div>
+        </header>
+
+        <section id="statistics" class="stats-grid">
+            <div class="stat-card glass">
+                <h3>Live Donors</h3>
+                <div class="value">1,284</div>
+            </div>
+            <div class="stat-card glass">
+                <h3>Emergencies</h3>
+                <div class="value urgent">12</div>
+            </div>
+            <div class="stat-card glass">
+                <h3>Reliability</h3>
+                <div class="value">98.4%</div>
+            </div>
+        </section>
+
+        <section id="app-container" class="hidden">
+            <!-- Dynamic content will be injected here -->
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; 2026 NexusBlood. Privacy-First Emergency Response.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
