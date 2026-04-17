@@ -1,6 +1,6 @@
-# NexusBlood (Hemohub)
+# Hemohub
 
-**NexusBlood** is a privacy-focused, decentralized blood donation and emergency response platform. Designed to bridge the gap between donors, patients, and hospitals in real-time, it prioritizes user privacy, traceability, and network reliability through modern web technologies.
+**Hemohub** is a privacy-focused, decentralized blood donation and emergency response platform. Designed to bridge the gap between donors, patients, and hospitals in real-time, it prioritizes user privacy, traceability, and network reliability through modern web technologies.
 
 ---
 
