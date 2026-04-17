@@ -13,7 +13,7 @@ const hero = document.querySelector('.hero');
 const stats = document.getElementById('statistics');
 
 function init() {
-    console.log('NexusBlood initialized');
+    console.log('Hemohub initialized');
     setupEventListeners();
 }
 
@@ -112,8 +112,8 @@ function renderBecomeDonor() {
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Phone Number (Will be masked)</label>
-                    <input type="tel" required placeholder="+1 234 567 8900">
+                    <label>Phone Number (10 digits only)</label>
+                    <input type="tel" required pattern="[0-9]{10}" title="Please enter exactly 10 digits" maxlength="10" placeholder="e.g. 9876543210">
                 </div>
                 <button type="submit" class="btn-primary mt-2">Register securely</button>
             </form>
